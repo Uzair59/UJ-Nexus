@@ -5,8 +5,7 @@
 /.next/
 /out/
 
-# Production
-/build
+
 
 # Environment variables
 .env
