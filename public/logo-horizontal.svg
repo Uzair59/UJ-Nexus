@@ -1,0 +1,27 @@
+<svg viewBox="0 0 320 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ujGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <filter id="ujGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="translate(10, 10) scale(0.6)">
+    <circle cx="50" cy="50" r="44" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.08" />
+    <circle cx="50" cy="50" r="44" stroke="url(#ujGrad)" stroke-width="1" stroke-opacity="0.25" stroke-dasharray="10 15 30 15" />
+    <path d="M30 30 V50 A20 20 0 0 0 70 50 V30 V65 A10 10 0 0 1 50 65" 
+          stroke="url(#ujGrad)" 
+          stroke-width="9" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          filter="url(#ujGlow)" />
+  </g>
+
+  <text x="85" y="47" fill="#FFFFFF" font-family="'Space Grotesk', system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="-0.03em">UJ <tspan fill="url(#ujGrad)">Nexus</tspan></text>
+  <text x="85" y="63" fill="#94A3B8" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="0.2em">PREMIUM DIGITAL AGENCY</text>
+</svg>

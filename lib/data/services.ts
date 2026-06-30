@@ -1,0 +1,130 @@
+export const services = [
+  {
+    id: 'web-development',
+    icon: 'Code2',
+    title: 'Web Development',
+    shortDesc: 'High-performance websites built with cutting-edge technologies.',
+    description:
+      'We craft blazing-fast, scalable web applications using Next.js, React, and modern JavaScript frameworks. Every line of code is written for performance, maintainability, and business impact.',
+    features: [
+      'Next.js & React Applications',
+      'Full-Stack Development',
+      'API Integration & Development',
+      'Performance Optimization',
+      'Progressive Web Apps',
+      'E-commerce Solutions',
+    ],
+    gradient: 'from-primary-500 to-secondary-500',
+    delay: 0,
+  },
+  {
+    id: 'nextjs-development',
+    icon: 'Zap',
+    title: 'Next.js Development',
+    shortDesc: 'Expert Next.js development for maximum performance and SEO.',
+    description:
+      'Specialized Next.js development leveraging App Router, Server Components, and advanced optimization techniques to deliver sub-second load times and perfect Lighthouse scores.',
+    features: [
+      'App Router Architecture',
+      'Server & Client Components',
+      'Static & Dynamic Rendering',
+      'Edge Runtime Optimization',
+      'SEO-First Development',
+      'Vercel Deployment',
+    ],
+    gradient: 'from-accent-500 to-primary-500',
+    delay: 0.1,
+  },
+  {
+    id: 'ui-ux-design',
+    icon: 'Palette',
+    title: 'UI/UX Design',
+    shortDesc: 'Premium interfaces that convert visitors into customers.',
+    description:
+      'We design interfaces that combine aesthetic excellence with conversion-focused psychology. Every pixel serves a purpose, guiding users toward your business goals.',
+    features: [
+      'User Research & Strategy',
+      'Wireframing & Prototyping',
+      'High-Fidelity UI Design',
+      'Design Systems',
+      'Interaction Design',
+      'Usability Testing',
+    ],
+    gradient: 'from-secondary-500 to-accent-500',
+    delay: 0.2,
+  },
+  {
+    id: 'branding',
+    icon: 'Sparkles',
+    title: 'Branding',
+    shortDesc: 'Distinctive brand identities that command premium positioning.',
+    description:
+      'We build brand identities that resonate deeply with your target audience and position you as the premium choice in your market. From logo to full brand guidelines.',
+    features: [
+      'Logo Design & Identity',
+      'Brand Strategy',
+      'Visual Language System',
+      'Brand Guidelines',
+      'Marketing Collateral',
+      'Brand Voice & Tone',
+    ],
+    gradient: 'from-primary-500 to-accent-500',
+    delay: 0.3,
+  },
+  {
+    id: 'seo',
+    icon: 'TrendingUp',
+    title: 'SEO',
+    shortDesc: 'Data-driven SEO that drives consistent organic growth.',
+    description:
+      'Technical SEO meets content strategy. We optimize your digital presence to rank for high-intent keywords that bring qualified traffic and drive real revenue.',
+    features: [
+      'Technical SEO Audit',
+      'Keyword Strategy',
+      'On-Page Optimization',
+      'Link Building',
+      'Core Web Vitals',
+      'Monthly Reporting',
+    ],
+    gradient: 'from-accent-500 to-secondary-500',
+    delay: 0.4,
+  },
+  {
+    id: 'social-media-marketing',
+    icon: 'Share2',
+    title: 'Social Media Marketing',
+    shortDesc: 'Strategic social presence that builds community and drives sales.',
+    description:
+      'We develop and execute social media strategies that build engaged communities, establish thought leadership, and convert followers into paying customers.',
+    features: [
+      'Platform Strategy',
+      'Content Creation & Curation',
+      'Community Management',
+      'Paid Social Campaigns',
+      'Influencer Partnerships',
+      'Analytics & Optimization',
+    ],
+    gradient: 'from-secondary-500 to-primary-500',
+    delay: 0.5,
+  },
+  {
+    id: 'digital-growth-strategy',
+    icon: 'BarChart3',
+    title: 'Digital Growth Strategy',
+    shortDesc: 'Holistic growth frameworks that 10x your digital presence.',
+    description:
+      'A comprehensive approach to digital growth combining technology, design, content, and marketing into a unified strategy designed to compound your results over time.',
+    features: [
+      'Growth Audit & Roadmap',
+      'Funnel Optimization',
+      'Conversion Rate Optimization',
+      'Marketing Automation',
+      'Analytics & Tracking',
+      'Quarterly Growth Reviews',
+    ],
+    gradient: 'from-primary-400 to-secondary-600',
+    delay: 0.6,
+  },
+]
+
+export type Service = (typeof services)[0]

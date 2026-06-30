@@ -1,0 +1,16 @@
+<svg viewBox="0 0 320 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Mark (Monochrome White) -->
+  <g transform="translate(10, 10) scale(0.6)">
+    <circle cx="50" cy="50" r="44" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.08" />
+    <circle cx="50" cy="50" r="44" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25" stroke-dasharray="10 15 30 15" />
+    <path d="M30 30 V50 A20 20 0 0 0 70 50 V30 V65 A10 10 0 0 1 50 65" 
+          stroke="#ffffff" 
+          stroke-width="9" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+  </g>
+
+  <!-- Typography (Monochrome White) -->
+  <text x="85" y="47" fill="#FFFFFF" font-family="'Space Grotesk', system-ui, sans-serif" font-size="26" font-weight="700" letter-spacing="-0.03em">UJ <tspan fill="#FFFFFF">Nexus</tspan></text>
+  <text x="85" y="63" fill="#FFFFFF" fill-opacity="0.6" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="0.2em">PREMIUM DIGITAL AGENCY</text>
+</svg>
